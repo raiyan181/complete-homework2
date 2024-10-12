@@ -1,0 +1,740 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    z-index: 9;
+}
+.header .header1 .h1img1{
+position: relative;
+top: 35px;
+left: 120px;
+}
+.header .header1 ul{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    justify-content: space-around;
+    padding-left: 500px;
+}
+.header1 input{
+    position: relative;
+    left: 50px;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgb(3, 3, 100);
+    text-transform: capitalize;
+    color: rgb(255, 208, 0);
+    border: none;
+    top: 5px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+}
+.header1 input:hover{
+    background-color: white;
+    color: black;
+    transition: all ease .5s;
+}
+.header1 ul li{
+    margin-left: 30px;
+    float: left;
+    list-style: none;
+    text-transform: capitalize;
+    position: relative;
+    top: 12px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: .8;
+}
+
+.checkbtn {
+    display: none;
+    font-size: 30px;
+    color: #262626;
+    float: right;
+    line-height: 50px;
+    margin-right: -310px;
+      }
+      #check {
+        display: none;
+       }
+                                          /*section1 DONE*/
+
+                                          
+.header2{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: space-around;
+position: relative;
+top: 100px;
+} 
+.header2 .texts{
+    padding-left: 110px;
+}
+.header2 .texts .text1{
+    background-color: rgb(255, 231, 152);
+    opacity: .6;
+    padding: 8px 10px;
+    font-size: 12px;
+    border-radius: 25px;
+    color: rgb(255, 136, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+.header2 .texts .text2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(2, 2, 102);
+    text-transform: capitalize;
+    line-height: 50px;
+    position: relative;
+    top: -30px;
+}
+.header2 .texts .p1{
+    opacity: .5;
+    position: relative;
+    top: -55px;
+}
+.header2 .h2img1 img{
+    width: 75%;
+    height: auto;
+}
+.header2 .h2img1{
+   margin-top: -350px;
+   margin-left: 600px;
+}
+.header2 .input1{
+    padding: 20px 25px;
+    font-size: 15px;
+    background-color:rgb(3, 3, 100); 
+    border: none;
+    outline: none;
+    border: 1px solid #ddd;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 50px;
+    position: relative;
+    top: -20px;
+}
+.header2 .input2{
+    padding: 20px 25px;
+    font-size: 15px;
+    background-color:rgb(255, 255, 255); 
+    border: none;
+    outline: none;
+    border: 1px solid #cfcdcd;
+    color: rgb(3, 3, 100);
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 50px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.header2 .input1:hover{
+    transition: all ease .2s;
+    background-color: white;
+    color:  rgb(3, 3, 100);
+}
+.header2 .input2:hover{
+    transition: all ease .2s;
+    background-color:  rgb(3, 3, 100);
+    color: white;
+}
+                   
+                                                            /*section3 START*/
+
+                .section3{
+                    width: 100%;
+                    height: auto;
+                }
+                .section3 .sec3text{
+                    text-align: center;
+                    align-items: center;
+                    margin: 0 auto;
+                }
+                .section3 .sec3text button{
+                    background-color: rgb(255, 231, 152);
+                    opacity: .6;
+                    padding: 8px 10px;
+                    font-size: 12px;
+                    border-radius: 25px;
+                    color: rgb(255, 136, 0);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    border: none;
+                    outline: none;   
+                }
+                .section3 .sec3text h3{
+                    font-size: 55px;
+                    text-transform: capitalize;
+                    margin-top: 10px;
+                    color: rgb(3,3, 100);
+                    font-weight: 800;
+                }
+                .section3 .sec3text p{
+                    opacity: .5;
+                    margin-top: -30px;
+                }
+                .section3 .parentinterior{
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 0 auto;
+                    align-items:center ;
+                    text-align: center;
+                }
+                .section3 .parentinterior i{
+                    font-size: 35px;
+                    color: rgb(255, 171, 93);
+                    opacity: .8;
+                }
+                .section3 .parentinterior h2{
+                    font-size: 30px;
+                    text-transform: capitalize;
+                }
+                .section3 .parentinterior p{
+                    opacity: .5;
+                }
+
+                                                  /*section3 DONE*/
+
+
+           .section4{
+            width: 100%;
+            height: auto;
+            position: relative;
+            top: 200px;
+           }
+           .section4 .parentinterior2{
+            display: flex;
+            justify-content: space-around;
+           }
+           .section4 .parentinterior2 .sec4img img{
+            width: 80%;
+            height: auto;
+           }
+           .section4 .parentinterior2 .sec4img{
+            padding-left: 100px;
+            padding-top: 10px;
+           }
+           .section4 .parentinterior2 .about{
+            padding-right: 100px;
+           }
+           .section4 .parentinterior2 .about button{
+            background-color: rgb(255, 231, 152);
+            opacity: .6;
+            padding: 8px 10px;
+            font-size: 12px;
+            border-radius: 25px;
+            color: rgb(255, 136, 0);
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            outline: none;   
+           }
+           .section4 .parentinterior2 .about h2{
+            font-size: 50px;
+            color: rgb(3, 3, 100);
+            margin-top: -0px;
+           }
+           .section4 .parentinterior2 .about p{
+            opacity: .6;
+            margin-top: -10px;
+           }
+           .section4 .parentinterior2 .about input{
+            margin-top: 20px;
+            padding: 15px 20px;
+            background-color: rgb(3, 3, 100);
+            border-radius: 25px;
+            border: none;
+            border: 2px solid #ddd;
+            outline: none;
+            color: white;
+            font-weight: bold;
+            text-transform: capitalize;
+           }
+           .section4 .parentinterior2 .about input:hover{
+            background-color: white;
+            color: rgb(3,3,100);
+            transition: all ease .5s;
+           }
+           .section4 .parentinterior2 .about .sec4p1{
+            font-size: 10px;
+            margin-left: 25px;
+            opacity: .5;
+           }
+
+           /*SECtion5 StART*/
+
+           .section5{
+            width:100%;
+            height: auto;
+            position: relative;
+            top: 500px;
+            box-sizing: border-box;
+            
+           }
+           .section5 .sec5text{
+            margin: 0 auto;
+            text-align: center;
+            align-items: center;
+           }
+           .section5 button{
+            background-color: rgb(255, 231, 152);
+            opacity: .6;
+            padding: 8px 10px;
+            font-size: 12px;
+            border-radius: 25px;
+            color: rgb(255, 136, 0);
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+           }
+           .section5 h1{
+            color: rgb(3, 3, 100);
+            font-size: 40px;
+            margin-top: -0px;
+           }
+           .section5 .parentinterior3{
+            display: flex;
+            width: 50%;
+            height: 150vh;
+            margin: 0 auto;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            position: relative;
+            top: 50px;
+           }
+           .section5 .parentinterior3 .d1{
+            width: 50%;
+            height: auto;
+            display: flex;
+           }
+           .section5 .parentinterior3 i{
+            font-size: 40px;
+                    color: rgb(255, 171, 93);
+                    opacity: .8;
+                         padding-top: 40px;
+                         padding-right: 30px;
+           }
+           .section5 .parentinterior3 .d1 p{
+            opacity: .6;
+           }
+           .section5 .parentinterior3 .d1 h2{
+            text-transform: capitalize;
+            font-size: 20px;
+           }
+           
+
+                                                    /*section5 END*/
+
+
+
+                                                    /*testiMONIALS*/
+
+
+     .section6{
+        width: 100%;
+        height: 80vh;
+        background-color: #f8f6f6;
+        position: relative;
+        top: 550px;
+     }
+     .section6 .lastparent{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 150px;
+     }
+     .section6 .testimonials{
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        text-transform: capitalize;
+     }
+     .section6 .testimonials p{
+        opacity: .6;
+        margin-top: -20px;
+     }
+     .section6 .testimonials h1{
+        font-size: 45px;
+        color: rgb(3, 3, 100);
+        margin-top: 25px;
+     }
+     .section6 .testimonials button{
+        background-color: rgb(255, 231, 152);
+            opacity: .6;
+            padding: 8px 10px;
+            font-size: 12px;
+            border-radius: 25px;
+            color: rgb(255, 136, 0);
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+            position: relative;
+            top: 20px;
+     }
+     .section6 .lastparent .comment img{
+        width: 10%;
+        height: 10%;
+        border-radius: 25px;
+        margin-top: 25px;
+     }
+     .section6 .lastparent .comment{
+        display: flex;
+        margin-top: -30px;
+        padding-left: 60px;
+     }
+       .section6 .lastparent .comment div{
+        margin-left:  20px;
+        line-height: 1px;
+        text-transform: capitalize;
+     }
+     .section6 .lastparent .comment div h5{
+        text-transform: capitalize;
+        opacity: .8;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Times New Roman', Times, serif;
+     }
+    .section6 .lastparent .comment div p{
+        opacity: .6;
+        text-transform:lowercase;
+        font-family: 10px;
+        margin-top: -10px;
+        margin-left: -0px;
+    }
+     .section6 .lastparent .d2{
+        border: 1px solid #ddd;
+        margin-left: 30px;
+        align-items: center;
+        background-color: white;
+     }
+     .section6 .lastparent .d2 p{
+        font-size: 20px;
+        opacity: .6;
+        margin-left: 30px;
+     }
+
+
+                                                     /*secTION6 DOne*/
+
+
+
+                footer{
+                    width: 100%;
+                    height: 60vh;
+                    position: relative;
+                    top: 650px;
+                }
+                footer .foot{
+                    display: flex;
+                    justify-content: space-around;
+                    width: 80%;
+                    margin: 0 auto;
+                    padding-left: 50px;
+                }
+                footer .foot h3{
+                    text-transform: capitalize;
+                }
+                footer .foot div{
+                    margin-left: 30px;
+                }
+                footer .foot .stptext i{
+                    font-size: 18px;
+                    background-color: rgb(3, 3, 100);
+                    color: white;
+                    border-radius: 50%;
+                    padding: 10px;
+                }
+                footer .foot .stptext p{
+                    opacity: .6;
+                }
+                .foot .ndptext h3{
+                    padding-left: 35px;
+                }
+                .foot li{
+                    list-style: none;
+                }
+                .foot a{
+                    text-decoration: none;
+                    color: black;
+                }
+                .foot li{
+                    text-transform: capitalize;
+                    line-height: 30px;
+                    opacity: .6;
+                }
+                .foot .rdptext h3{
+                    padding-left: 35px;
+                }
+                .foot .thptext h3{
+                    padding-left: 35px;
+                }
+                .foot .thptext li{
+                    font-size: 12px;
+                    margin-left: 20px;
+                    margin-top: -5px;
+                }
+                .foot .thptext i{
+                    display: flex;
+                    opacity: .6;
+                    font-size: 15px;
+                }
+                footer .thelastp{
+                    opacity: .75;
+                    font-weight: 400;
+                    margin: 0 auto;
+                    text-align: center;
+                    align-items: center;
+                    margin-top: 50px;
+                }
+
+
+                                                         /***RESPONSIVE SITEs start***/
+
+                                                         @media(max-width:768px) and (max-height:812px){
+                                                            .header{
+                                                                width: 100%;
+                                                                height: auto;
+                                                            }
+                                                            .checkbtn{
+                                                                display: block;
+                                                            }
+                                                            .header .header1 .navbar ul{
+                                                                width: 100%;
+                                                                height: 85vh;
+                                                                background-color: #ddd;
+                                                                top: 74px;
+                                                                left: -250%;
+                                                                transition: all .1s;
+                                                                position: absolute;
+                                                                color: rgb(0, 0, 0);
+                                                                display: grid;
+                                                                font-size: 18px;
+                                                                z-index: 1;
+                                                               
+                                                            }
+                                                            .header .navbar ul li{
+                                                                line-height: 30px;
+                                                                clear: both;
+                                                                margin-top: 15px;
+                                                                width: 100%;
+                                                                padding-left: 150px;
+                                                                
+                                                                text-align: center; 
+                                                            }
+                                                           #check:checked ~ ul{
+                                                            right: 0;
+                                                            
+                                                        }
+                                                        .header .navbar ul input{
+                                                            display: none;
+                                                        }
+                                                        .header2 .texts{
+                                                            
+                                                        }
+                                                        .header2 .texts .text1{
+                                                            font-size: 8px;
+                                                            padding: 5px;
+                                                        }
+                                                        .header2 .texts .text2 h1{
+                                                            font-size: 30px;
+                                                            line-height: 40px;
+                                                        }
+                                                        .header2 .texts p{
+                                                            font-size: 13px;
+                                                        }
+                                                        .header2 .texts input{
+                                                            padding: 8px;
+                                                            font-size: 10px;
+                                                            position: relative;
+                                                            top: -50px;
+                                                        }
+                                                        .header2 .h2img1 img{
+                                                            width: 55%;
+                                                            height: auto;
+                                                            display: block;
+                                                        }
+                                                        .header2 .h2img1{
+                                                            width: 100%;
+                                                            height: auto;
+                                                            position: relative;
+                                                            top: 450px;
+                                                            left: -600px;
+                                                            justify-content: center;
+                                                        }
+                                                        .section3{
+                                                            position: relative;
+                                                            top: 400px;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            margin: 0 auto;
+                                                        }
+                                                        .section3 .features .sec3text button{
+                                                            padding: 8px;
+                                                            font-size: 10px;
+                                                        }
+                                                        .section3 .features .sec3text h3{
+                                                            font-size: 30px;
+                                                        }
+                                                        .section3 .features .sec3text p{
+                                                            font-size: 13px;
+                                                            opacity: .48;
+                                                        }
+                                                        .section3 .features .parentinterior{
+                                                            position: relative;
+                                                            top: 50px;
+                                                        }
+                                                        .section3 .features .parentinterior .pt1 i{
+                                                            flex-wrap: wrap;
+                                                            font-size: 25px;
+                                                        }
+                                                        .section3 .features .parentinterior .pt1 h2{
+                                                            font-size: 25px;
+                                                         }
+                                                         .section3 .features .parentinterior .pt1 p{
+                                                            width: 50%;
+                                                            font-size: 13px;
+                                                            text-align: center;
+                                                            padding-left: 50px;
+                                                         }
+                                                         .section4{
+                                                            width: 100%;
+                                                            height: auto;
+                                                            position: relative;
+                                                            top: 650px;
+                                                            margin: 0 auto;
+                                                         }
+                                                         .section4 .parentinterior2 .sec4img img{
+                                                            width: 100%;
+                                                            height: auto;
+                                                            margin-left: -50px;
+                                                            margin-top: 150px;
+                                                         }
+                                                         .section4 .parentinterior2 .about button{
+                                                            padding: 8px;
+                                                            font-size: 10px;
+                                                         }
+                                                         .section4 .parentinterior2 .about h2{
+                                                            font-size: 30px;
+                                                         }
+                                                         .section4 .parentinterior2 .about p{
+                                                            font-size: 13px;
+                                                         }
+                                                         .section4 .parentinterior2 .about input{
+                                                            padding: 13px;
+                                                            font-size: 13px;
+                                                         }
+                                                        
+                                                         .section5{
+                                                            width: 100%;
+                                                            height: auto;
+                                                            padding-top: 400px;
+                                                         }
+                                                         .section5 .sec5text button{
+                                                            padding: 8px;
+                                                            font-size: 10px;
+                                                         }
+                                                         .section5 .sec5text h1{
+                                                            font-size: 30px;
+                                                         }
+                                                         .section5 .parentinterior3{
+                                                            margin-left: 150px;
+                                                         }
+                                                         .section5 .parentinterior3 .d1{
+                                                            display: grid;
+                                                            
+                                                         }
+                                                         .section5 .parentinterior3 .d1 i{
+                                                            font-size: 30px;
+                                                         }
+                                                         .section5 .parentinterior3 .d1 h2{
+                                                            font-size: 20px;
+                                                            line-break: auto;
+                                                         }
+                                                         .section5 .parentinterior3 p{
+                                                            font-size: 13px;
+                                                            width: 50%;
+                                                         }
+                                                         .section6{
+                                                            width: 100%;
+                                                            height: auto;
+                                                            position: relative;
+                                                            top: 900px;
+                                                            
+                                                         }
+                                                         .section6 .testimonials button{
+                                                            padding: 8px;
+                                                            font-size: 10px;
+                                                         }
+                                                         .section6 .testimonials h1{
+                                                            font-size: 30px;
+                                                         }
+                                                         .section6 .testimonials p{
+                                                            font-size: 13px;
+                                                         }
+                                                         .section6 .lastparent{
+                                                            margin-left: 50px;
+                                                            
+                                                         }
+                                                         .section6 .lastparent .d2{
+                                                            width: 32%;
+                                                            height: auto;
+                                                            margin: 0 auto;
+                                                         }
+                                                         .section6 .lastparent .d2 p{
+                                                            font-size: 13px;
+                                                         }
+                                                         .section6 .lastparent .d2 .comment img{
+                                                            width: 35%;
+                                                            height: 35%;
+                                                            margin-left: -50px;
+                                                         }
+                                                         .section6 .lastparent .d2 .comment p{
+                                                            font-size: 13px;
+                                                            opacity: .5;
+                                                         }
+                                                         footer{
+                                                            padding-top: 500px;
+                                                         }
+                                                         footer .foot{
+                                                            margin-left: -10px;
+                                                         }
+                                                         footer .foot ul li{
+                                                            font-size: 13px;
+                                                         }
+                                                         footer .foot .stptext p{
+                                                            font-size: 13px;
+                                                            width: 200px;
+                                                         }
+                                                         .foot .ndptext{
+                                                            margin-left: -50px;
+                                                         }
+                                                         footer .foot .thptext{
+                                                            margin-left: 20px;
+                                                            display: none;
+                                                         }
+                                                         footer .foot .thptext i{
+                                                            font-size: 13px;
+                                                         }
+
+
+
+
+
+                                                        }
