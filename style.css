@@ -520,7 +520,7 @@ top: 100px;
                                                                 height: 85vh;
                                                                 background-color: #ddd;
                                                                 top: 74px;
-                                                                left: -250%;
+                                                                left: -200%;
                                                                 transition: all .1s;
                                                                 position: absolute;
                                                                 color: rgb(0, 0, 0);
@@ -534,7 +534,7 @@ top: 100px;
                                                                 clear: both;
                                                                 margin-top: 15px;
                                                                 width: 100%;
-                                                                padding-left: 150px;
+                                                                padding-left: 80px;
                                                                 
                                                                 text-align: center; 
                                                             }
@@ -545,8 +545,11 @@ top: 100px;
                                                         .header .navbar ul input{
                                                             display: none;
                                                         }
+                                                        .header .h1img1 img{
+                                                            margin-left: -80px;
+                                                        }
                                                         .header2 .texts{
-                                                            
+                                                            margin-left: -80px;
                                                         }
                                                         .header2 .texts .text1{
                                                             font-size: 8px;
@@ -575,7 +578,7 @@ top: 100px;
                                                             height: auto;
                                                             position: relative;
                                                             top: 450px;
-                                                            left: -600px;
+                                                            left: -550px;
                                                             justify-content: center;
                                                         }
                                                         .section3{
@@ -704,9 +707,14 @@ top: 100px;
                                                             width: 35%;
                                                             height: 35%;
                                                             margin-left: -50px;
+                                                            margin-top: 10px;
+                                                         }
+                                                         .section6 .lastparent .d2 .comment h5{
+                                                            font-size: 10px;
+                                                            font-weight: bold;
                                                          }
                                                          .section6 .lastparent .d2 .comment p{
-                                                            font-size: 13px;
+                                                            font-size: 10px;
                                                             opacity: .5;
                                                          }
                                                          footer{
